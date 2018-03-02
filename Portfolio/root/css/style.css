@@ -1,0 +1,943 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900');
+
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i');
+
+/* Eric Meyer CSS Reset begins*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* Eric Meyer CSS Reset ends 
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* Site style begins here
+17969C 
+
+@media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+
+
+
+*/
+
+
+/*===================== COMMON STYLE======================================*/
+/*filter*/
+/*.category-container{
+	width: 800px;
+	display:block;
+	margin:0 auto;
+	overflow:hidden;
+
+}
+img{
+	width: 100%;
+	height: auto;
+}
+
+.category-item{
+	float: left;
+	width: 20%;
+	background-color: pink;
+	padding: 20px 0;
+	text-align: center;
+	cursor:pointer;
+	font-size: 18px;
+	color: black;
+
+
+}
+.category-item:hover{
+    background-color: black;
+    color: white;	
+}
+.block-container{
+	width: 800px;
+	display:block;
+	margin:0 auto;
+	box-sizing:border-box;
+
+}
+.color-item{
+	box-sizing: border-box;
+	float:left;
+	padding: 2px;
+	width: 20%;
+	transition:all 0.4s ease-in-out;
+}
+.hide{
+	transform:scale(0);
+	width: 0;
+	padding: 0;
+	transition:all 0.4s ease-in-out;
+
+}*/
+/*page styles*/
+
+.page-article{
+	color: black;
+	text-align: left;
+}
+
+.page-section-white{
+  
+   color:black;
+
+}
+.me-text h1{
+	color:white;
+}
+.form-group{
+	color: white;
+	text-align:left;
+}
+.about-wrap{
+	color: black;
+	text-align: left;
+}
+.about-wrap h2,.about-wrap h3,.about-wrap p{
+	color:black;
+}
+
+.about-main{
+	color: black;
+}
+.about-site-para{
+	color:black;
+	text-align: left;
+}
+section{
+	color: black;
+}
+.about-whoami{
+	color:black;
+}
+.image{
+	width: 100px;
+	height: 100px;
+}
+.button {
+    background-color: #17969C;
+    /* border: none; */
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2em;
+}
+.about-margin{
+	margin:1em 0;
+}
+.space-np{
+	margin:3em 0;
+}
+article{
+	color: white;
+
+}
+.np-section{
+	color: white;
+	margin: 2em 0;
+}
+.black{
+	background-color: black;
+	position:fixed;
+	z-index:9999;
+}
+*{
+box-sizing: border-box;
+}
+
+body,html{
+	height: 100%;
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+
+	font-weight: 300;
+	line-height: 1.8em;
+	letter-spacing: 2px;
+	
+}
+p{
+	color: white;
+
+}
+h1{
+	font-size: 1.5rem;
+}
+h2{
+	color: white;
+}
+.space{
+	margin-bottom: 3em;
+	margin-top: 2em;
+}
+.pimg1{
+	opacity: 1;
+}
+
+.about-pimg1,.pimg1,.pimg2,.pimg3,.pimg4,.pimg5{
+	position: relative;
+	
+	background-position: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-color: black;
+}
+.about-pimg1{
+	background-image:url('../images/n.jpg');
+min-height: 100%;
+
+}
+.pimg1{
+background-image:url('../images/ami/b.jpg');
+min-height: 100%;
+}
+.pimg2{
+/*background-image: url('../images/ami/a.jpg');*/
+min-height: 100px;
+
+}
+.pimg3{
+/*background-image: url('../images/ff.jpeg');*/
+min-height: 100px;
+}
+.pimg4{
+/*background-image: url('../images/ami/c.jpg');*/
+min-height: 100px;
+}
+.pimg5{
+/*background-image: url('../images/ami/b.jpg');*/
+min-height: 100px;
+}
+.ptext .border{
+	
+	color: white;
+	padding: 8px;
+}.section{
+	text-align: center;
+}
+.section-light{
+	background-color: #093364;
+	color: #666;
+}
+.section-purple{ background-color: #271642;  }
+.section-blue{ background-color: #093364; }
+.section-red{ background-color: #770D0D; }
+.section-green{background-color: #033340; }
+.section-dark{
+background-color:black;
+color:white;
+}
+.ptext1{
+	position: absolute;
+    /* top: 2%; */
+    width: 100%;
+    text-align: center;
+    color: #000;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0.8em;
+     
+     
+}
+.ptext{
+	position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0.8em;
+     
+     
+}
+}
+.ptext .border{
+	background-color: #111;
+	color: white;
+	padding: 8px;
+}
+.ptext .border .trans{
+	background-color:transparent;
+}
+.heading{
+	font-size: 48px;
+    color:#17969C;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+@media (min-width: 576px) { 
+}
+@media (min-width: 1200px) {  
+		.pimg2{
+
+		min-height: 200px;
+		}
+		.pimg3,.pimg4,.pimg5{
+
+		min-height: 200px;
+
+		}
+		.ptext .border{
+			font-size:3em;
+		}
+}
+
+/*=============== about-me resume page style=================*/
+
+
+
+
+/*===============FOR EXTRA SMALL SCREEN =================*/
+/*about page*/
+.me-text-about {
+    margin-top: 27em;}
+
+.menu-icon{
+	margin-top: -2em;
+}
+		#site-nav{
+		font-size: 0.8em;
+		 
+		}
+		#site-nav ul{
+		  padding: 20px;
+		  border-radius: 30px;
+		  }
+		
+		#site-nav a{
+		    color: white;
+		    text-decoration: none;
+		    -webkit-transition: 1s ease-out;
+		    transition: 1s ease-out
+		    border: 1px solid red;
+		    }
+		#site-nav a:after{
+		    content: '';
+		    display: block;
+		    height: 5px;
+		    width: 0;
+		    -webkit-transition: width .3s ease-out, background-color .3s ease-out;
+		    transition: width .3s ease-out, background-color .3s ease-out
+		   }
+		#site-nav a:hover{
+		  color: #17969C;
+		}
+		#site-nav a:hover:after{ 
+		  width: 100%;
+		  background: #17969C;
+		}
+       .me-text{
+		 
+          color: white;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 22em;
+          text-align: center;
+		 }
+
+
+		.me-text-about h1,.me-text-about h2,.me-text-about p{
+			color:black;
+			 font-size: 2	rem;
+		  font-weight: normal;
+		}
+		.me-text span{
+
+		}
+		.me-text h1{
+		   font-size: 2	rem;
+		  font-weight: normal;
+
+		  
+		}
+		
+		.logo{
+			width: 100px;
+			height: 100px;
+		}
+		.me-text h2{
+			margin-left: 39px;
+		}
+		
+
+
+@media (min-width: 576px) {
+	.ami-img{
+		width: 200px;
+		height: 200px;
+		
+	}
+	.me-text{
+		text-align:left;
+	}
+	.me-text h1 {
+    font-size: 2	rem;
+    font-weight: normal;
+    font-size: 2em;
+    letter-spacing: 4px;
+    line-height: 1.3em;
+}
+}
+	
+@media (min-width: 768px) {
+	/*about-page*/
+	.me-text-about{
+		  margin-top: 20em;
+    text-align: center;
+}
+
+				#site-nav{
+					font-size: 0.8em;
+				    /* word-spacing: -15px; */
+				    letter-spacing: 0;
+				   
+					}
+				#site-nav ul{
+					list-style-type: none;
+				    margin: 0;
+				    padding: 0;
+				    overflow: hidden;
+				  
+				    }
+				#site-nav li{
+					float: left;
+				    
+				 
+				}
+				#site-nav a{
+					display: block;
+				    color: white;
+				    text-align: center;
+				    padding: 14px 16px;
+				    text-decoration: none;
+				   
+				}
+				#site-nav a:hover{
+				   background-color: #111;
+				}
+
+				.me-text{
+					margin-top: 15rem;
+				 	margin-left: 5em;
+
+				}
+				.logo{
+					width: auto;
+					height: auto;
+					margin-top: 10px;
+				}
+}
+
+@media (min-width: 992px){
+				#site-nav{
+					font-size: 1em;
+				    letter-spacing: 4px;
+				    position: absolute;
+                    right: 0;
+					}
+
+				.me-text{
+					font-size: 1em;
+    margin: 0;
+    margin-top: 20rem;
+    margin-left: 2em;
+}
+				
+}
+
+@media (min-width: 1200px) {
+				   #site-nav{
+					font-size: 1em;
+				    letter-spacing: 5px;
+				    position: absolute;
+				    right: 0;
+				    margin-top: 10px;
+				  }
+				  .me-text{
+				  	text-align: left;
+				    line-height: 1.5em;
+				    line-height: 2em;
+				    margin-top: 22rem;
+				    margin-left:0;
+				  	
+				  	}
+				  .me-text p{
+					   font-size: 0.9em;
+    margin-left: 2.5em;
+					    }
+				  .me-text h1{
+					font-size: 4em;
+    font-weight: 300;
+    text-transform: capitalize;
+   margin-bottom: 0.7em;
+    line-height: 22px;
+    letter-spacing: 2px;
+    margin-left: 0.5em;
+				   }
+				  .icon1{
+					margin-left: 2em;
+				    transform: translate(-9em, -9em);
+				   }
+				   .logo{
+				   	width: 130px;
+				   	height: auto;
+				   }
+
+}
+/*===========ABOUT PAGE==================*/
+.about-skills{
+	color: black;
+	margin: 2em 0;
+}
+.about-button{
+	padding: 1em;
+
+	
+}
+.ami-img{
+       
+       width: auto;
+       height: 200px;
+		}
+.site-para{
+
+   color: white;
+    font-size: 0.8em;
+    line-height: 2;
+    /* word-spacing: 2px; */
+    /* padding: 10px; */
+    /* margin-top: 26px; */
+    text-align: left;
+    letter-spacing: 2px;
+ 
+}
+span{
+ 
+    
+    background-color: black;
+}
+.heading {
+    font-size: 30px;
+    color: #17969C;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+@media (min-width: 576px) {
+	
+					.ami-img
+					{
+				   
+				    width: auto;
+				    height: 300PX;
+				    
+				    }
+				    site-para{
+				    	font-size:0.9em;
+				    }
+
+  }
+@media (min-width: 768px) { 
+	.about-margin{
+	margin:2em 0;
+}
+					.ami-img 
+					{
+				 
+				    width: auto;
+				    height: 400PX;
+				    margin-bottom: 3em;
+				    }
+				    .heading {
+    font-size: 48px;
+    color: #17969C;
+    margin: 1em;
+}
+}
+@media (min-width: 992px) {
+					.ami-img 
+					{
+					border-radius: 8px 165px 8px 8px;
+				   
+				    width: auto;
+				    height: 500PX;
+				    margin-bottom: 3em;
+				    }
+				.site-para{
+
+				    color: white;
+    font-size: 0.8em; 
+    /* font-weight: lighter; */
+    /* line-height: 2; */
+    word-spacing: 2px;
+    /* padding: 10px; */
+    margin-top: 20px;
+				}
+				
+}
+@media (min-width: 1200px) {
+
+
+}
+/*============================= SERVICE PAGE STYLE ======================================*/
+.sevices-all{
+	border:1px solid red;
+}
+.services-all p{
+    display:none;
+
+}
+.section-title{color: white;}
+.section-title h2{
+	font-size: 1rem;
+}
+.service-item{}
+.service-icon {
+    font-size: 50px;
+    color: white;
+    margin: 20px;
+}
+
+
+
+.service-content{
+	
+	letter-spacing: 2px;
+}
+
+
+.service-content h2{
+	color: white;
+    font-size: 0.8em;
+}
+
+
+.service-content p{
+	font-size: 0.7em;
+    line-height: 2;
+}
+
+
+
+@media (min-width: 576px) {
+
+
+	.services-all p{
+    display:block;
+}
+
+.service-icon{
+	font-size: 100px;
+    color: white;
+    margin: 20px;
+}
+.service-content h2{
+	color: white;
+    font-size: 1.3em;
+}
+.service-content{
+	
+	margin-bottom: 2em;
+}
+
+
+}
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { 
+.service-content{
+	margin-bottom: 3em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================= WORK PAGE STYLE ======================================*/
+
+
+
+.button-work {background-color: black;
+    /* border: none; */
+    color: white;
+    /* padding: 10px 22px; */
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 7px;
+    /* margin-top: 2em; */}
+.upload{
+	margin-bottom: 3em;
+}
+.content{
+	position: relative;
+    
+}
+.image{
+	display: block;
+  width: 100%;
+  height: auto;
+  
+}
+.overlay{
+	position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #770D0D;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity:0.7;
+}
+.content:hover .overlay{
+	bottom:0;
+	height:100%;
+}
+.text{
+	color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.main {
+	color: white;
+   }
+.portfolio-h1 {
+    
+   font-size: 1.5rem;
+}
+.main h2{
+	font-size: 1rem;
+}
+.content {
+	
+  }
+.show {
+  
+}
+.btn {
+  
+}
+.btn:hover {
+  
+}
+.btn.active {
+ 
+}
+.content {
+	height: 180px;
+  }
+#myBtnContainer{
+margin: 2em 0;
+}
+#myBtnContainer button{
+	background-color: #f7f7f9;
+    border: 1px solid #c9302c;
+    color: #c9302c;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+	}
+.project{
+	
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: inset 0 0 10px black;
+    
+    }
+
+
+
+
+@media (min-width: 576px) {
+	.text{
+		font-size:20px;
+	}
+    #myBtnContainer button{
+		width: auto;
+	    display:inline;
+	}
+	.work{
+		 margin:3em;
+	}
+	.button-work {
+    background-color: black;
+    /* border: none; */
+    color: white;
+   padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2em;
+}
+.content {
+	height: 253px;
+  }
+
+}
+
+
+@media (min-width: 768px) { 
+
+.button-work {
+	padding: 9px 2px;
+}
+	
+}
+
+
+@media (min-width: 992px) { 
+
+
+ }
+
+
+@media (min-width: 1200px) { 
+	.content {
+	height: 253px;
+  }
+.button-work {
+  padding: 11px 22px;
+}
+
+
+}
+
+
+/* ========================= CONTACT US PAGE =========================================== */
+.contact-para{
+
+}
+.contact-info{
+margin-top: 2em;
+}
+.contact-info article{
+
+}
+.contact-info h2{
+	font-size: 1.4em;
+    color: #33b5c3;
+    text-transform: uppercase;
+
+}
+.contact-info p{
+	margin-bottom: 2em;
+
+}
+.btn-primary {
+    /* color: #fff; */
+    background-color: #17969C;
+    border-color: white;
+    
+}
+@media (min-width: 576px) {
+
+
+}
+
+
+@media (min-width: 768px) { }
+
+
+@media (min-width: 992px) { }
+
+
+@media (min-width: 1200px) {
+
+
+}
+
+
+
+
+
+/* ========================= CONTACT US PAGE =========================================== */
+/*about*/
+.contact-info a{
+	color: white;
+	font-size: 0.6em;
+
+}
+.footer{
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 2em;
+}
+@media (min-width: 576px) {
+.footer{
+	font-size: 1em;
+
+}
+
+}
+
+
+@media (min-width: 768px) { }
+
+
+@media (min-width: 992px) { }
+
+
+@media (min-width: 1200px) {
+
+
+}
+
+
+footer{
+	background-color: black;
+	height: 100px;
+	margin: 0 auto;
+}
+
+p{
+	color: white;
+}
+
+
+
+
+
+
+

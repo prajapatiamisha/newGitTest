@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="155px" height="70px" viewBox="0 0 155 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-166.000000, -49.000000)" font-weight="normal">
+        <g id="Header" transform="translate(2.000000, 0.000000)">
+            <g id="Logo" transform="translate(161.000000, 26.000000)">
+                <text id="MEDIA" font-family="AvenirNext-Regular, Avenir Next" font-size="20" letter-spacing="16.7199993" fill="#FFFFFF">
+                    <tspan x="8.89333515" y="92.1315789">MEDI</tspan>
+                    <tspan x="125.673332" y="92.1315789" letter-spacing="13.9333324">A</tspan>
+                </text>
+                <text id="niyami" font-family="DFWaWaSC-W5, Wawati SC" font-size="60" fill="#18969C">
+                    <tspan x="0" y="64">niyami</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
